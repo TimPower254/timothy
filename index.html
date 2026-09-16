@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timothy Wambugu - Web Developer | Wakuu Net Solutions</title>
+<style>
+  :root{--bg:#0a0a0a;--card:#151515;--border:#242424;--text:#f5f5f5;--muted:#9a9a9a;--accent:#ffffff}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  .container{max-width:900px;margin:0 auto;padding:0 20px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;border-bottom:1px solid var(--border)}
+  nav .logo{font-weight:800;font-size:18px}
+  nav .links a{color:var(--muted);text-decoration:none;margin-left:24px;font-size:14px}
+  nav .links a:hover{color:var(--text)}
+  .hero{padding:80px 0 60px}
+  .hero h1{font-size:48px;line-height:1.1;letter-spacing:-1.5px;margin-bottom:16px}
+  .hero h1 span{color:var(--muted)}
+  .hero p{color:var(--muted);font-size:18px;max-width:560px;margin-bottom:32px}
+  .btn{display:inline-block;background:var(--text);color:var(--bg);padding:12px 24px;border-radius:100px;text-decoration:none;font-weight:600;font-size:14px;margin-right:12px}
+  .btn-ghost{background:transparent;color:var(--text);border:1px solid var(--border)}
+  .section{padding:48px 0;border-top:1px solid var(--border)}
+  .section h2{font-size:14px;text-transform:uppercase;letter-spacing:2px;color:var(--muted);margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px}
+  .card h3{font-size:18px;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:14px;margin-bottom:16px}
+  .card .tag{display:inline-block;background:#222;border:1px solid #2a2a2a;padding:4px 10px;border-radius:20px;font-size:11px;margin-right:6px;color:var(--muted)}
+  .skills{display:flex;flex-wrap:wrap;gap:10px}
+  .skill{border:1px solid var(--border);padding:8px 16px;border-radius:100px;font-size:13px;color:var(--muted)}
+  footer{padding:40px 0;color:var(--muted);font-size:13px;border-top:1px solid var(--border);margin-top:40px}
+  @media(max-width:700px){.hero h1{font-size:36px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <div class="logo">WAKUU.NET</div>
+    <div class="links">
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Timothy Wambugu<br><span>Web Developer, Nairobi</span></h1>
+    <p>I build fast, modern websites for small businesses and startups. Founder at Wakuu Net Solutions. I turn ideas into live websites.</p>
+    <a href="#contact" class="btn">Hire Me</a>
+    <a href="https://github.com/" target="_blank" class="btn btn-ghost">View GitHub</a>
+  </div>
+
+  <div class="section" id="work">
+    <h2>Selected Work</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Business Website</h3>
+        <p>Clean, fast, mobile-first website for a local business in Nairobi.</p>
+        <span class="tag">WordPress</span><span class="tag">HTML/CSS</span>
+      </div>
+      <div class="card">
+        <h3>E-commerce Store</h3>
+        <p>Online shop with M-Pesa integration and product management.</p>
+        <span class="tag">WooCommerce</span><span class="tag">M-Pesa</span>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>High-converting landing page for a startup launch.</p>
+        <span class="tag">Next.js</span><span class="tag">Vercel</span>
+      </div>
+      <div class="card">
+        <h3>Portfolio Project</h3>
+        <p>Replace this with your best project. Add link and description.</p>
+        <span class="tag">Your Stack</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Next.js</div>
+      <div class="skill">WordPress</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">UI/UX</div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <h3>Let's build something</h3>
+      <p>Based in Nairobi, Kenya. Available for freelance and full-time projects.</p>
+      <p style="margin-top:12px;color:var(--text)">Email: yourname@gmail.com<br>Instagram: @timothy_kibuthi<br>WhatsApp: +254 ...</p>
+      <p style="margin-top:16px;font-size:12px">EDIT THIS FILE: Search for yourname@gmail.com and replace with your real info, then re-upload to GitHub.</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Timothy Wambugu — Built and hosted on GitHub Pages
+  </footer>
+</div>
+</body>
+</html>
