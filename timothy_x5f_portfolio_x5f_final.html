@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timothy Wambugu - Web Developer | Wakuu Technologies</title>
+<meta name="description" content="Timothy Wambugu - Web Developer based in Nairobi, Kenya. Founder at Wakuu Net Solutions.">
+<style>
+  :root{--bg:#080808;--card:#141414;--border:#252525;--text:#fafafa;--muted:#8a8a8a;--accent:#fff}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.65; -webkit-font-smoothing:antialiased}
+  .container{max-width:880px;margin:0 auto;padding:0 22px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(8,8,8,0.85);backdrop-filter:blur(10px);z-index:10}
+  .logo{font-weight:900;letter-spacing:-0.5px}
+  .logo span{color:var(--muted);font-weight:400;margin-left:6px;font-size:13px}
+  nav .links a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:13.5px}
+  nav .links a:hover{color:var(--text)}
+  .hero{padding:88px 0 56px}
+  .badge{display:inline-block;border:1px solid var(--border);padding:6px 14px;border-radius:100px;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+  .hero h1{font-size:54px;line-height:0.95;letter-spacing:-2.5px;margin-bottom:18px;font-weight:800}
+  .hero h1 span{color:var(--muted);font-weight:400}
+  .hero .sub{color:var(--muted);font-size:19px;max-width:560px;margin-bottom:34px;line-height:1.5}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--text);color:var(--bg);padding:14px 26px;border-radius:100px;text-decoration:none;font-weight:650;font-size:14px;transition:transform .15s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-ghost{background:transparent;color:var(--text);border:1px solid var(--border)}
+  .section{padding:56px 0;border-top:1px solid var(--border)}
+  .section h2{font-size:11px;text-transform:uppercase;letter-spacing:2.2px;color:var(--muted);margin-bottom:22px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px;transition:border-color .2s}
+  .card:hover{border-color:#333}
+  .card h3{font-size:16px;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:14px;line-height:1.6}
+  .coming{background:linear-gradient(180deg,#151515,#101010);border-style:dashed}
+  .skills{display:flex;flex-wrap:wrap;gap:10px}
+  .skill{border:1px solid var(--border);padding:9px 16px;border-radius:100px;font-size:12.5px;color:var(--muted);background:#111}
+  .contact-card{background:var(--text);color:var(--bg);border-radius:20px;padding:32px}
+  .contact-card h3{font-size:22px;letter-spacing:-0.5px;margin-bottom:8px;color:#000}
+  .contact-card p{color:#555;font-size:14.5px;margin-bottom:20px}
+  .contact-row{display:flex;flex-wrap:wrap;gap:10px}
+  .contact-item{display:inline-flex;background:#000;color:#fff;padding:12px 18px;border-radius:100px;text-decoration:none;font-size:13px;font-weight:600}
+  .contact-item.light{background:#e9e9e9;color:#000}
+  footer{padding:36px 0;color:#555;font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--border);margin-top:20px}
+  @media(max-width:720px){.hero h1{font-size:38px}.grid{grid-template-columns:1fr}.hero{padding:60px 0 40px}}
+</style>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <div class="logo">TIMOTHY WAMBAGU <span>Wakuu Technologies</span></div>
+    <div class="links"><a href="#work">Work</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <div class="hero">
+    <div class="badge">Available for new projects — Nairobi, Kenya</div>
+    <h1>Web developer<br><span>building fast sites for businesses.</span></h1>
+    <p class="sub">I'm Timothy, founder of Wakuu Net Solutions. I help small businesses and startups go from idea to live website — clean, fast, and mobile-first.</p>
+    <a href="mailto:wakuutechnologies@gmail.com" class="btn">Email Me →</a>
+    <a href="https://wa.me/254715082908" target="_blank" class="btn btn-ghost">WhatsApp Me</a>
+  </div>
+
+  <div class="section" id="work">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card coming">
+        <h3>🚀 Coming Soon</h3>
+        <p>I'm currently building my first projects. This space will show my work. Check back soon or contact me to be my first client at a special rate.</p>
+      </div>
+      <div class="card coming">
+        <h3>💡 What I Can Build For You</h3>
+        <p>• Business websites<br>• Portfolio & personal sites<br>• Landing pages<br>• WordPress + M-Pesa shops</p>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:12px;margin-top:14px">Tip: Once you finish a project, replace these cards with your real project name, screenshot, and link.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML5</div><div class="skill">CSS3</div><div class="skill">JavaScript</div>
+      <div class="skill">Responsive Design</div><div class="skill">WordPress</div><div class="skill">Git & GitHub</div>
+      <div class="skill">UI/UX Basics</div><div class="skill">Website Hosting</div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <h3>Let's build your website</h3>
+      <p>Based in Nairobi. Fast replies on Email and WhatsApp. Let's talk about your idea.</p>
+      <div class="contact-row">
+        <a href="mailto:wakuutechnologies@gmail.com" class="contact-item">wakuutechnologies@gmail.com</a>
+        <a href="tel:+254715082908" class="contact-item light">+254 715 082 908</a>
+        <a href="https://wa.me/254715082908" target="_blank" class="contact-item light">WhatsApp</a>
+        <a href="https://instagram.com/timothy_kibuthi" target="_blank" class="contact-item light">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>© 2026 Timothy Wambugu — Wakuu Technologies</div>
+    <div>Hosted free on GitHub Pages • Nairobi, KE</div>
+  </footer>
+</div>
+</body>
+</html>
